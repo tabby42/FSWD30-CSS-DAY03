@@ -1,0 +1,98 @@
+body{
+	background-color: #c21f1f;
+}
+.container{
+	background-color: snow;
+	padding:10px;
+}
+.page-header {
+	text-align: center;
+	background-color: #008001;
+	border-radius: 5px;
+	color: snow;
+	padding-top: 3px;
+}
+.page-header h3{
+	font-size: 30pt;
+	text-transform: uppercase;
+}
+.navbar {
+	border-radius: 0px;
+}
+
+.flexcontainer {
+	display: flex;
+	flex-direction: row;
+}
+
+.flexitem{
+	flex-basis: 45%;
+	border: solid 1px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.filler{
+	flex-basis: 10%;
+}
+.button{
+	display: block;
+	width: 200px;
+	padding: 10px;
+	background-color: lightblue;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	transition: all 0.5s ease-in-out;
+	border-radius: 5px;
+	margin-top: auto;
+	border-bottom: 3px solid lightblue;
+}
+
+.button:hover{
+	border-bottom: 3px solid gold;
+	text-decoration: none;
+	transform: scale(1.1);
+}
+
+.overwrite{
+	background-color: none;
+	padding: 0px;
+}
+footer{
+	margin-top: 20px;
+	text-align: center;
+	background-color: gold;
+}
+footer a{
+	padding:10px;
+}
+/*________Sign_up HTML Start________*/
+h2.page-header{
+	text-transform: uppercase;
+}
+.signup input{
+	display: block;
+	margin-bottom: 2px;
+}
+.signup select{
+	display: block;
+	margin-bottom: 2px;
+}
+.signup input[type="radio"]{
+	display: inline-block;
+	margin-bottom: 2px;
+}
+.signup input[type="submit"]{
+	border-radius: 3px;
+	background-color: lightblue;
+	border:0;
+	transition: all 0.5s ease-in-out;
+}
+.signup input[type="submit"]:hover{
+	text-decoration: none;
+	transform: scale(1.1);
+}
+
+
+/*________Sign_up HTML End________*/
